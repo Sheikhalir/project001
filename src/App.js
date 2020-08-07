@@ -1,6 +1,7 @@
 import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
+import Hello from './Hello';
 
 function App({name}) {
 return <div>
@@ -19,7 +20,9 @@ return <div>
               <li>OL List 2</li>
               <li>Ol List 3</li>
             </ol>
-        </div>
+            <br/> 
+            <Hello></Hello>
+       </div>
 }
 
 export default App;
